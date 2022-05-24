@@ -1,3 +1,14 @@
+TC : O(logn)
+
+
+n , n/2 , n/4 , ..... , n/2k
+n , n/2 , n/2*2 , ..... , 1
+
+n/2k = 1 
+n=2k
+logn = k * log2
+k = logn
+
 #include<bits/stdc++.h>
 using namespace std;
 
