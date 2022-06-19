@@ -8,7 +8,7 @@ There are three distinct elements 10, 20 and 30.
 
 Code : 
 
-Brute force 
+Brute force : O(n2)
 
 #include <iostream>
 using namespace std;
@@ -31,7 +31,6 @@ int countDistinct(int arr[], int n)
 	return res;
 }
 
-Optimal code
 // Driver program to test above function
 int main()
 {
@@ -46,7 +45,7 @@ int main()
 
 
 
-
+Optimal code : O(N)
 
 int main(){
     
